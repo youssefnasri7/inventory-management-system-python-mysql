@@ -48,20 +48,21 @@ def Display_Product():
     b.execute(sql)
     # Fetching all details of all the Products
     r = b.fetchall()
-    for i in r:
-        print("\nProduct's Id: ", i[0])
-        print("Product's Year of manufacturing: ", i[1])
-        print("Product's Category: ", i[2])
-        print("Products Brand: ",i[3])
-        print("Product's Quantity: ", i[4])
-        print("Product's Cost: ", i[5])
-        print("Product's Value: ", i[6])
-        press = input("\nPress Any Key To Continue.")
-        menu()
-    else:
+    if not r:
         print("\nProduct Record does not Exist!")
-        press = input("\nPress Any Key To Continue.")
-        menu()
+    else:
+        for i in r:
+            print("\nProduct's Id: ", i[0])
+            print("Product's Year of manufacturing: ", i[1])
+            print("Product's Category: ", i[2])
+            print("Products Brand: ", i[3])
+            print("Product's Quantity: ", i[4])
+            print("Product's Cost: ", i[5])
+            print("Product's Value: ", i[6])
+
+    press = input("\nPress Any Key To Continue.")
+    menu()
+
         
 
 # Function to Update_Product
