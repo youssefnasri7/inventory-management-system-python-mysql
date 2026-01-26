@@ -1,11 +1,11 @@
 from os import system
 import mysql.connector
-Py_MySQl = mysql.connector.connect(host="localhost", user="root",password="12345678", database="Priyasha")
+Py_MySQl = mysql.connector.connect(host="localhost", user="root",password="Your_Password", database="Product_Data")
 
 # Function to Add Product
 def Add_Product():
     PID = input ("\nEnter Product's ID:")
-    # Checking if Product Id is Existing
+    # Checking if Product ID exists
     if(check_Product(PID) == False) :
         PCategory = input("Enter Product's Category:")
         PBrand = input("Enter Product's Brand:")
@@ -69,7 +69,7 @@ def Display_Product():
 def Update_Product():
     print("\nUpdate Product's Record")
     PID = input("\nEnter Product's ID: ")
-    # checking If Product Id Exists
+    # checking if Product ID exists
     if (check_Product(PID) == True):
         PQuantity = int(input("Enter Product's Quantity:"))
         PCost = int(input("Enter Product's Cost:"))
@@ -92,7 +92,7 @@ def Update_Product():
 def Remove_Product():
     print("\nRemove Product's Record")
     PID = input("\nEnter Product's ID:")
-    # checking If Product Id is existing
+    # checking if Product ID exists
     if (check_Product(PID) == False):
         print("\nProduct's Record does not exist!")
         press = input("\nPress Any Key To Continue.")
@@ -112,14 +112,14 @@ def Remove_Product():
 def Search_Product():
     print("\nSearch Product's Record")
     PID = input("\nEnter Product ID: ")
-    # checking If Product Id Exists
+    # checking if Product ID exists
     if (check_Product(PID) == True):
     # query to search Product from Product table
         sql = 'select * from Product where PID = %s'
         data = (PID,)#Converting it into tuple.
         b = Py_MySQl .cursor()
         b.execute(sql, data)
-        # fetching all details of all the Product
+        # fetching all details of all the products
         r  = b.fetchall()
         for i in r:
             print("\nProduct's Id: ", i[0])
