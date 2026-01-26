@@ -38,4 +38,4 @@ This project was created to strengthen the understanding of:
 5. Run the Python Script
 
 ## Author
-Ojas Deshpande
+Ojas Deshpande [contact.ojasdeshpande@gmail.com]
